@@ -57,6 +57,7 @@ _merge = "none"
 #      style = "fas" # may be omitted. default = "fas"
 #      link = "mailto:john.doe@example.com"
     [params.contact.mastodon]
+      name = "fosstodon.org"
       style = "fab" # may be omitted. default = "fas"
       link = "https://fosstodon.org/@filviu"
       # By default rel="me" is not set
@@ -69,6 +70,7 @@ _merge = "none"
       # This defaults to false to cover the case of not having control over the linked site.
       rel-me = true
       [params.contact.mastodon]
+      name = "mastodon.social"
       style = "fab" # may be omitted. default = "fas"
       link = "https://mastodon.social/@filviu"
       # By default rel="me" is not set
