@@ -34,7 +34,6 @@ _merge = "none"
 
   [params.contact]
     # the default fontawesome style in simple key-value pairs is "fab", i.e. brand icons
-    github = "https://github.com/filviu"
 #    instagram = "https://instagram.com/jdoe"
 #    twitter = "https://twitter.com/jdoe"
      linkedin = "https://www.linkedin.com/in/silviuvulcan/"
@@ -46,39 +45,7 @@ _merge = "none"
     # See https://toml.io/en/v1.0.0 for details
 #    0 = { name = "ello", icon = "ello", style = "fab", link = "" } # empty links are possible
 
-    [params.contact.blog] # key names are sorted lexicographically
-      name = "blog" # may be omitted. defaults to key name
-      icon = "blog" # may be omitted. defaults to key name
-      style = "fas" # may be omitted. default = "fas"
-      link = "https://silviuvulcan.ro/blog"
-#    [params.contact.email]
-#      name = "email" # may be omitted. defaults to key name
-#      icon = "envelope" # may be omitted. defaults to key name
-#      style = "fas" # may be omitted. default = "fas"
-#      link = "mailto:john.doe@example.com"
-    [params.contact.mastodon]
-      name = "fosstodon.org"
-      style = "fab" # may be omitted. default = "fas"
-      link = "https://fosstodon.org/@filviu"
-      # By default rel="me" is not set
-      # For some services, it makes sense to set it though.
-      # This is the case for Mastodon (and Github) if you link back from these services.
-      # See
-      # https://microformats.org/wiki/rel-me and
-      # https://docs.joinmastodon.org/user/profile/#verification
-      # for more information.
-      # This defaults to false to cover the case of not having control over the linked site.
-      rel-me = true
-      [params.contact.mastodon]
-      name = "mastodon.social"
-      style = "fab" # may be omitted. default = "fas"
-      link = "https://mastodon.social/@filviu"
-      # By default rel="me" is not set
-      # For some services, it makes sense to set it though.
-      # This is the case for Mastodon (and Github) if you link back from these services.
-      # See
-      # https://microformats.org/wiki/rel-me and
-      # https://docs.joinmastodon.org/user/profile/#verification
-      # for more information.
-      # This defaults to false to cover the case of not having control over the linked site.
-      rel-me = true    
+    0 = { name = "Blog", icon = "blog", style = "fas", link = "https://silviuvulcan.ro/blog" }
+    1 = { name = "GitHub", icon = "github", style = "fab", link = "https://silviuvulcan.ro/blog" }
+    2 = { name = "fosstodon.org", icon = "mastodon", style = "fab", link = "https://fosstodon.org/@filviu", rel-me = true }
+    3 = { name = "mastodon.social", icon = "mastodon", style = "fab", link = "https://mastodon.social/@filviu", rel-me = true }
