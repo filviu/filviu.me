@@ -48,4 +48,4 @@ _merge = "none"
     0 = { name = "Blog", icon = "blog", style = "fas", link = "https://silviuvulcan.ro/blog" }
     1 = { name = "GitHub", icon = "github", style = "fab", link = "https://silviuvulcan.ro/blog" }
     2 = { name = "fosstodon.org", icon = "mastodon", style = "fab", link = "https://fosstodon.org/@filviu", rel-me = true }
-    3 = { name = "mastodon.social", icon = "mastodon", style = "fab", link = "https://mastodon.social/@filviu", rel-me = true }
+#    3 = { name = "mastodon.social", icon = "mastodon", style = "fab", link = "https://mastodon.social/@filviu", rel-me = true }
